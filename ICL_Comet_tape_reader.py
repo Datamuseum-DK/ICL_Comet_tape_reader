@@ -145,7 +145,6 @@ class CometTape():
         ''' Summarize a tape record '''
         crc = crcfunc(octets[1:-1])
         text = "%5d bytes" % len(octets)
-        text += " %.0f BPS" % round(self.track.rate / self.tbit, -1)
         text += " ["
         if len(octets) <= 8:
             text += octets.hex()
