@@ -4,7 +4,7 @@ Process audio from ICL/Metanic COMET computer tapes into SIMH-TAP files
 
 For more about ICL/Metanic COMET computers:
 
-	https://datamuseum.dk/wiki/ICL/Comet
+https://datamuseum.dk/wiki/ICL/Comet
 
 Input is .WAV files, 16bit little endian, 44100 samples per second.
 
